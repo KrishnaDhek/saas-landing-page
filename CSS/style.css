@@ -166,17 +166,17 @@ image {
     padding-bottom: 20px;
 }
 
-.faq .faq-group .faq-groud-header {
+.faq .faq-group .faq-group-header {
     padding: 20px 0;
     margin-bottom: 15px;
     position: relative;
 }
 
-.faq .faq-group .faq-groud-header h4 {
+.faq .faq-group .faq-group-header h4 {
     font-weight: 900;
     width: 95%;
 }
-.faq .faq-group .faq-groud-header i {
+.faq .faq-group .faq-group-header i {
     position: absolute;
     right: 0;
     top: 35px;
