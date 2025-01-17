@@ -20,7 +20,28 @@ document.addEventListener('DOMContentLoaded', () => {
 
         // Close other open faq bodies
         const otherGroups = faqContainer.querySelectorAll('.faq-group');
-        console.log(otherGroups);
         
+        otherGroups.forEach((otherGroup) => { 
+            if (otherGroup !== group) {
+                const otherGroupBody = otherGroup.querySelector('.faq-group-body');
+                const otherIcon = otherGroup.querySelector('.faq-group-header i');
+
+                otherGroupBody.classList.remove('open');
+                otherIcon.classList.remove('fa-minus');
+                otherIcon.classList.add('fa-plus');
+            }
+        });        
+    });
+});
+
+
+// Mobile Menu
+document.addEventListener('DOMContentLoaded', () => {
+  const hamburgerBtn = document.querySelector('.hamburger-btn');
+  const mobileMenu = document.querySelector('.mobile-menu');
+
+    hamburgerBtn.addEventListener('click', () => { 
+        mobileMenu.classList.toggle('active');
+
     });
 });
