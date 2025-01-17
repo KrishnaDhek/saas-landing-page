@@ -1,6 +1,7 @@
 # SAAS-LANDING_PAGE
 ## Live Demo 
 [View the Website](https://chipper-choux-54f45d.netlify.app/)
+
 This project is part of the iCodeThis challenge and showcases a minimalist approach to web development using pure HTML, CSS, and a touch of JavaScript.
 The implementation focuses on simplicity and functionality:
 
